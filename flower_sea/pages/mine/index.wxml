@@ -1,0 +1,13 @@
+<view class="personalCenter">
+  <view class="personalMe">
+    <image src="{{avatar}}" style="width:68px;height:68px;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;">
+    </image>
+    <view class="personalInfo">
+      <text>昵称: {{nickName}}</text>
+      <text>年龄: {{age}}</text>
+      <text>性别: {{gender}}</text>
+      <text>生日(农历): {{birth}}</text>
+      <text>下一次的生日时间(阳历): {{birthAnother}}</text>
+    </view>
+  </view>
+</view>

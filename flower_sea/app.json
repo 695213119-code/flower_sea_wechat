@@ -1,0 +1,49 @@
+{
+  "pages": [
+    
+    "pages/myGoodFriend/index",
+    "pages/circleFriends/index",
+    "pages/goodFriendSearch/index",
+    "pages/mine/index",
+    "pages/bindingUser/index",
+    "pages/authorization/index",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Birthday-Reminder",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/myGoodFriend/index",
+        "text": "我的好友",
+        "iconPath": "icons/我的好友.png",
+        "selectedIconPath": "icons/我的好友.png"
+      },
+      {
+        "pagePath": "pages/circleFriends/index",
+        "text": "朋友圈",
+        "iconPath": "icons/朋友圈.png",
+        "selectedIconPath": "icons/朋友圈.png"
+      },
+      {
+        "pagePath": "pages/goodFriendSearch/index",
+        "text": "好友搜索",
+        "iconPath": "icons/好友搜索.png",
+        "selectedIconPath": "icons/好友搜索.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "个人中心",
+        "iconPath": "icons/个人中心.png",
+        "selectedIconPath": "icons/个人中心.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
